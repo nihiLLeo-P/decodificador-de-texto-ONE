@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de Texto</title>
+    <link rel="stylesheet" href="/styles/styles.css">
+    
+</head>
+<body>
+    <main>
+        <section class="iconAlura">
+        <img src="assets/iconA.svg" alt="Ícone da Alura em um tom azul">
+</section>
+
+            <section class="entradaTexto">
+                <textarea id="inputTexto" name="inputTexto" rows="34" cols="100" onfocus="this.value='';">Digite seu texto...</textarea>
+                <br>
+                <section class="alertaApenas">
+                    <img src="assets/alertaApenas.svg" alt="">
+                    <p>Apenas letras minúsculas e sem acento.</p>
+                </section>
+                
+                <section class="botoes">
+                    <button class="criptoBTN" onclick="criptografarTexto()">Criptografar</button>
+                    <button class="decriptoBTN" onclick="descriptografarTexto()">Descriptografar</button>
+                    <button class="copyBT" onclick="copiarTexto()">Copiar</button>
+
+                </section>
+                    
+            </section>
+
+        </div> 
+
+        <section class="esquerdaSite">
+                <div class="receberTexto">
+
+                    <img src="assets/procuran.svg" alt="Uma pessoa com cabelos longos num estilo cartoonizado com uma lupa e detalhes em azul">
+                    <p>Nenhuma mensagem encontrada</p>
+                    <p2>Digite um texto que você deseja criptografar ou descriptografar.</p>
+                </div>
+
+        </section>
+
+    </main>
+
+    <footer> Desenvolvido por Leonardo Parra. </footer>
+    <script src="scripts/js.js"></script>
+</body>
+</html>
